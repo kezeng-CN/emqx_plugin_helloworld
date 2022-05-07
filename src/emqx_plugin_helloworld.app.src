@@ -1,0 +1,14 @@
+{application, emqx_plugin_helloworld,
+ [{description, "An EMQ X plugin"},
+  {vsn, "git"},
+  {modules, []},
+  {registered, []},
+  {mod, {emqx_plugin_helloworld_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
